@@ -1,0 +1,13 @@
+{
+  "canisters": {
+    "frontend": {
+      "type": "assets",
+      "source":[ "frontend/build"]
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000"
+    }
+  }
+}

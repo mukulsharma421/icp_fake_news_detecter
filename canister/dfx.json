@@ -1,0 +1,21 @@
+{
+  "canisters": {
+    "backend": {
+      "type": "rust",
+      "candid": "src/backend/backend.did",
+      "wasm": "target/wasm32-unknown-unknown/release/backend.wasm.gz",
+      "dependencies": []
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "package": {
+    "name": "icp-ml-webapp",
+    "version": "0.1.0"
+  },
+  "version": 1
+}
